@@ -1,0 +1,161 @@
+/*.navbar>button{
+	width: 100px;
+	padding: 10px;
+	margin:10px;
+}
+*/
+
+/* NAV BAR */
+/*---------------------*/
+/*.navbar:clicked{
+	background-color: white;
+}*/
+
+/*nav-item.dropdown>.dropdown-menu>.dropdown-item{
+	background-color: yellow;
+}*/
+*{
+	font-family: helvetica;
+}
+.nav-item.dropdown>.dropdown-menu>a{
+	
+}
+.navbar>.navbar-nav{
+	width: 500px;
+	display: inline-flex;
+}
+.navbar>.navbar-nav li{
+	margin:10px;
+}
+.navbar-brand{
+	font-variant: small-caps;
+	letter-spacing: 5px;
+}
+
+.nav-item>.nav-link{
+	/*width: 80%;*/
+}
+
+.search-bar{
+	width: 100%;
+}
+
+.search-bar form{
+	display: flex;
+	justify-content: right;
+	width:100%;
+}
+
+.sign-in-form{
+	position: fixed;
+	left:50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 20px;
+	padding: 20px;
+	display: none;
+	opacity: 90%;
+}
+
+.sign-in-form>form>.form-group>label{
+	color: white;
+}
+
+.sign-in-form>form>.form-group>input{
+	width: 300px;
+}
+
+/*---------------------*/
+
+/* MAIN */
+/*---------------------*/
+.main{
+	display: block;
+	
+}
+
+/* PRODUCTS */
+/*---------------------*/
+.products{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.product a{
+	display: block;
+}
+
+.product a div{
+	
+	text-align: center;
+}
+
+.product > .attr{
+	display: flex;
+	/*background-color: black;*/
+	/*border:3px solid darkgrey;*/
+	justify-content: center;
+	/*color: black;*/
+	/*border-radius: 20px;	*/
+	margin:10px; 
+}
+.product > .attr table tr{
+	background-color: gold;
+}
+.product > .attr table tr *{
+	padding: 10px;
+}
+
+.product > .attr table tr th{
+	
+	color: black;
+	text-align: center;
+}
+
+.product > .attr table tr td{
+	color: black;
+	text-align: center;
+}
+
+.product > .price label{
+	/*color: white;*/
+	/*background-color:darkgreen; */
+}
+
+.product > .buy-btn{
+	display: flex;
+	justify-content: center;	
+}
+
+.buy-btn a{
+	color:white;
+}
+
+/*---------------------*/
+
+/* MORE PAGES */
+/*---------------------*/
+.more-pages{
+	margin:10px;
+	display: flex;
+	justify-content: center;
+
+}
+
+.page-link{
+	color: darkgreen;
+}
+
+.page-link:hover{
+	color: black;	
+}
+
+.page-item.active>.page-link{
+	color:darkgreen;
+	background-color:palegreen;
+	border-color:white;
+}
+/*---------------------*/
+/*---------------------*/

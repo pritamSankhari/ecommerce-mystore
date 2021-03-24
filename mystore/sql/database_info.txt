@@ -1,0 +1,5 @@
+db name: id12496476_mystore
+user: id12496476_pritam
+host: localhost
+password: Rrg@0987654321
+

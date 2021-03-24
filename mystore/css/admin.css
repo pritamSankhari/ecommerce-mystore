@@ -1,0 +1,29 @@
+.operation{
+	display: flex;
+	justify-content: center;
+}
+
+.operation>*{
+	margin: 10px;
+}
+
+.nav-bar-2 *{
+	padding: 10px;
+}
+
+
+
+
+.show-orders *{
+	word-wrap: break-word;
+	padding: 10px;
+}
+
+.order{
+	margin: 10px;
+}
+.edit-btn{
+
+	/*display: flex;*/
+	/*justify-content: center;*/
+}

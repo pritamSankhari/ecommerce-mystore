@@ -1,0 +1,22 @@
+
+create table orders(
+	id varchar(50) NOT NULL PRIMARY KEY,
+	customer_id varchar(50) NOT NULL, 
+	product_id varchar(50) NOT NULL,
+    FOREIGN KEY(customer_id) REFERENCES users(id),
+    FOREIGN KEY(product_id) REFERENCES products(id),
+    time DATETIME NOT NULL,
+    contact_no varchar(50),
+    address varchar(100) NOT NULL,
+    city varchar(30) NOT NULL,
+    zip_code varchar(20) NOT NULL,
+    confirmed int(1),
+    delivered int(1),
+    order_from_ip varchar(30)
+
+)
+
+create table categories(
+    id varchar(50) NOT NULL PRIMARY KEY,
+    name varchar(100) NOT NULL
+)
